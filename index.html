@@ -1,0 +1,119 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-image" href="download.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ </head>
+ <body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png" alt="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">about</a></li>
+                    <li><a href="#">course</a></li>
+                    <li><a href="#">blog</a></li>
+                    <li><a href="#">contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+        </nav>
+    
+        <div class="textbox">
+            <h1>World's Biggest University</h1>
+            <p>Making website is now one the easiest thing in the world. you just need
+                to learn HTML, CSS Javascript for front end development and you are good to go.
+            </p>
+            <a href="#" class="hero-btn">Visit Us to know more</a>
+        </div>
+    </section>
+ <section class="courses">
+        <h1>Courses offered</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        <div class="row">
+            <div class="column">
+                <h1>Intermediate</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iste, in maiores pariatur voluptates hic eum quam sed, ipsam, libero consequatur! Error nemo aut laudantium fugit at ea nisi ut.</p>
+            </div>
+            <div class="column">
+                <h1>Degree</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eos enim voluptatibus optio? Magnam aliquam porro nulla harum, ratione illum eaque fuga sint! Dolores quos quo nihil quaerat voluptatum saepe.</p>
+            </div>
+            <div class="column">
+                <h1>Degree</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas eos enim voluptatibus optio? Magnam aliquam porro nulla harum, ratione illum eaque fuga sint! Dolores quos quo nihil quaerat voluptatum saepe.</p>
+            </div>
+        </div>
+ </section>
+ 
+ <section class="campus">
+    <h1>Our Global Campus</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="image6.png">
+            <div class="layer">
+                <h2>LONDON</h2>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="image.png">
+            <div class="layer">
+                <h2>NEWYORK</h2>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="image8.png" height="87%">
+            <div class="layer">
+                <h2>WASHINGTON</h2>
+            </div>
+        </div>
+    </div>
+ </section>
+
+ <!----facilities---->
+ <section class="facility">
+    <h1>Our Facilities</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    <div class="row">
+        <div class="facility-col">
+            <img src="library.png" height="57%">
+            <h1>Campus Library</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iste, in maiores pariatur voluptates hic eum quam sed, ipsam, libero consequatur!.</p>
+        </div>
+        <div class="facility-col">
+            <img src="basketball.png" height="57%">
+            <h1>Basketball Pitch</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iste, in maiores pariatur voluptates hic eum quam sed, ipsam, libero consequatur!.</p>
+        </div>
+        <div class="facility-col">
+            <img src="cafeteria.png" height="57%">
+            <h1>Cafeteria</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem iste, in maiores pariatur voluptates hic eum quam sed, ipsam, libero consequatur!.</p>
+        </div>
+    </div>
+ </section>
+
+<!---call to action---->
+ <section class="ctn">
+    <h1>Enroll For Our Varios Courses<br> Anywhere From The World</h1>
+    <a href="" class="hero-btn">Contact US</a>
+ </section>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showmenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px"
+    }
+
+</script>
+ </body>
+ </html>
